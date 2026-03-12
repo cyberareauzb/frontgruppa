@@ -11,10 +11,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .block{
-    width: 800px;
+    max-width: 800px;
     background: linear-gradient(pink, red);
     padding: 40px;
     display: flex;

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: radial-gradient(white, indigo);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    width: 800px;
+    background: linear-gradient(pink, red);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 25px;
+    gap: 40px;
+    box-shadow: -25px -25px 0px rgba(255, 255, 255, 0.186);
+}
+
+button{
+    background: linear-gradient( rgb(214, 0, 0), pink);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
